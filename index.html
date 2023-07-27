@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - Time API</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div id="container">
+        <div class="content">
+            <h6><box-icon name="sun"></box-icon> Acoooooorda minino....</h6>
+            <h1><span id="hora">00</span>:<span id="minuto">00</span></h1>
+            <p>in <span id="pais">Brasil</span></p>
+        </div>
+        <button id="select">
+            select timezone
+            <box-icon id="abrirSelect" type='solid' name='chevron-down'></box-icon>
+        </button>
+        <select id="listaDeTimezones">
+            <option value="">timezone</option>
+        </select>
+    </div>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
